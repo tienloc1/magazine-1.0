@@ -1,4 +1,6 @@
-Blank_theme
-===========
+Magazine Theme
+======================
 
-Blank Theme For WordPress Development
+Magazine Theme Development by Loc_rabbirt
+
+Template learn in tuts: http://bit.ly/ridemagazine
