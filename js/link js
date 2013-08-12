@@ -1,0 +1,14 @@
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/tabs.js"></script>
+	
+	<!-- plugin
+	================================================== -->
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.tweet.js"></script>
+	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flickrush.js"></script>
+	<!-- <script src="<?php //echo get_template_directory_uri(); ?>/js/jquery.flexslider.js"></script> -->
+
+	<!-- instantiate js plugin
+	================================================== -->
+	<script src="<?php echo get_template_directory_uri(); ?>/js/whatever.js"></script>
