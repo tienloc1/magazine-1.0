@@ -1,8 +1,9 @@
-// Hook up the flexslider
+// Hook up the tweet display
 $(document).ready(function() {
-	$('.flexslider').flexslider({
-		animation: 'slide',
-		controlsContainer: '.flex-container'
+	$(".tweet").tweet ({
+		username: "envatowebdesign",
+		count: 3,
+		loading_text: "loading tweets..."
 	});
 });
 
@@ -12,6 +13,13 @@ $(document).ready(function() {
 		limit:6,
 		id:'44499772@N06',
 		random:true
+	});
+});
+
+// Hook up the flexslider
+$(document).ready(function(){
+	$('.flexslider').flexslider({
+		directionNav: false,
 	});
 });
 
@@ -43,12 +51,3 @@ $("nav select").change(function(){
 });
 
 });
-
-/*// Hook up the tweet display
-$(document).ready(function() {
-	$(".tweet").tweet ({
-		username: "envatowebdesign",
-		count: 3,
-		loading_text: "loading tweets..."
-	});
-});*/

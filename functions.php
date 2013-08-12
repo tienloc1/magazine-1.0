@@ -31,15 +31,14 @@
     	));
     }
 
-
-     function theme_scripts() {
-       /* wp_enqueue_script('jquery');*/
-        wp_enqueue_script('whatever', get_template_directory_uri() .'/js/whatever.js', array('jquery'));
-        wp_enqueue_script('flexslider', get_template_directory_uri() .'/js/jquery.flexslider.js', array('jquery'));
-        wp_enqueue_script('flickr', get_template_directory_uri() .'/js/jquery.flickrush.js', array('jquery'));
+    function theme_scripts() {
+      //wp_enqueue_script('jquery'); /* không cần thiết vì bên dưới file ntuts.js đã phụ thuộc vào jquery */
+      wp_enqueue_script('flexslider', get_template_directory_uri() .'/js/jquery.flexslider.js', array('jquery'));
     }
 
-    add_action('init', 'theme_scripts');
+   add_action('init', 'theme_scripts');
+
+    
 
 
 ?>
