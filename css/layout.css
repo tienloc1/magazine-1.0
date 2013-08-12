@@ -398,6 +398,10 @@ html[xmlns] .slides {display: block;}
 	background: #f1f1f1;
 }
 
+.flex-direction-nav {
+	display: none;
+}
+
 /* #Blog Styles
 ================================================== */
 
@@ -532,6 +536,7 @@ ul.categories li a {
 	text-decoration: none;
 	line-height: 35px;
 	display: block;
+	color: red;
 }
 
 ul.categories li a:hover,

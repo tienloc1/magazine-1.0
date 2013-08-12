@@ -19,7 +19,7 @@
 	<!-- CSS
   ================================================== -->
 	<link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -44,7 +44,7 @@
 
 
 					<!--http://themeforest.net/wiki/referral/basics-referral/banners-and-logos/-->
-					<a class="banner" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/banners/pd_468x60_v4.gif" alt="" /></a>
+					<a class="banner" href="#"><img src="wp-content/themes/magazine-1.0/images/banners/pd_468x60_v4.gif" alt="" /></a>
 
 				</div>
 			</header><!-- end container -->
