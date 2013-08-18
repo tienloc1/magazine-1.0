@@ -215,6 +215,10 @@ nav.primary ul li:hover > a {
 	background: #424242;
 }
 
+nav.primary .menu-main-menu-container select {
+	display: none;
+}
+
 /* images */
 figure {
 	padding: 6px !important;

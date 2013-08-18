@@ -1,173 +1,175 @@
-	<?php get_header(); ?>
+<?php get_header(); 
+include (TEMPLATEPATH . '/inc/primary-menu.php');
+?>
 
-		<div class="band chief">
-			<div class="container">
-				
-				<div class="sixteen columns">
-					<div class="flexslider">
-						<ul class="slides">
-							
-							<li>
-								<figure>
-									<img src="<?php echo get_template_directory_uri(); ?>/images/loch-nevis.jpg" alt="" />
-								</figure>
-							</li>
+<div class="band chief">
+	<div class="container">
 
-							<li>
-								<figure>
-									<img src="<?php echo get_template_directory_uri(); ?>/images/iceland.jpg" alt="" />
-								</figure>
-							</li>
+		<div class="sixteen columns">
+			<div class="flexslider">
+				<ul class="slides">
 
-							<li>
-								<figure>
-									<img src="<?php echo get_template_directory_uri(); ?>/images/snow.jpg" alt="" />
-								</figure>
-							</li>
+					<li>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/loch-nevis.jpg" alt="" />
+						</figure>
+					</li>
 
-						</ul>
-					</div><!-- end flexslider -->
-				</div>
+					<li>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/iceland.jpg" alt="" />
+						</figure>
+					</li>
 
-				<div class="ten columns">
-					
-					<article>
-						<div class="three columns alpha thumbnail">
-							
-							<figure>
-								
-								<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
+					<li>
+						<figure>
+							<img src="<?php echo get_template_directory_uri(); ?>/images/snow.jpg" alt="" />
+						</figure>
+					</li>
 
-							</figure>
+				</ul>
+			</div><!-- end flexslider -->
+		</div>
 
+		<div class="ten columns">
 
+			<article>
+				<div class="three columns alpha thumbnail">
 
-						</div><!-- three -->
+					<figure>
 
-						
-						<div class="seven columns omega">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
 
-							<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
-
-							<h2>The Evoling Role of Social Media</h2>
-
-							<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
-
-							<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
-							
-						</div><!-- /.seven -->
-						
-						<hr />
-
-					</article><!-- blog post -->
-
-					<article>
-						<div class="three columns alpha thumbnail">
-							
-							<figure>
-								
-								<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
-
-							</figure>
+					</figure>
 
 
 
-						</div><!-- three -->
-
-						
-						<div class="seven columns omega">
-
-							<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
-
-							<h2>The Evoling Role of Social Media</h2>
-
-							<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
-
-							<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
-							
-						</div><!-- /.seven -->
-						
-						<hr />
-
-					</article><!-- blog post -->
-
-					<article>
-						<div class="three columns alpha thumbnail">
-							
-							<figure>
-								
-								<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
-
-							</figure>
+				</div><!-- three -->
 
 
+				<div class="seven columns omega">
 
-						</div><!-- three -->
+					<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
 
-						
-						<div class="seven columns omega">
+					<h2>The Evoling Role of Social Media</h2>
 
-							<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
+					<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
 
-							<h2>The Evoling Role of Social Media</h2>
+					<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
 
-							<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
+				</div><!-- /.seven -->
 
-							<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
-							
-						</div><!-- /.seven -->
-						
-						<hr />
+				<hr />
 
-					</article><!-- blog post -->
+			</article><!-- blog post -->
 
-					<article>
-						<div class="three columns alpha thumbnail">
-							
-							<figure>
-								
-								<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
+			<article>
+				<div class="three columns alpha thumbnail">
 
-							</figure>
+					<figure>
+
+						<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
+
+					</figure>
 
 
 
-						</div><!-- three -->
+				</div><!-- three -->
 
-						
-						<div class="seven columns omega">
 
-							<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
+				<div class="seven columns omega">
 
-							<h2>The Evoling Role of Social Media</h2>
+					<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
 
-							<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
+					<h2>The Evoling Role of Social Media</h2>
 
-							<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
-							
-						</div><!-- /.seven -->
-						
-						<hr />
+					<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
 
-					</article><!-- blog post -->
+					<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
 
-					<nav class="pagination">
-						<ul>
-							<li><a href="#" class="selected">1</a></li>
-							<li><a href="#">2</a></li>
-							<li><a href="#">3</a></li>
-							<li><a href="#">4</a></li>
-							<li><a href="#">5</a></li>
-							<li><a href="#">6</a></li>
-						</ul>
-					</nav><!--end pagination-->
+				</div><!-- /.seven -->
 
-				</div><!-- end ten -->
+				<hr />
 
-					<?php get_sidebar(); ?>
+			</article><!-- blog post -->
 
-					</div><!-- end container -->
-				</div><!-- end band chief -->
+			<article>
+				<div class="three columns alpha thumbnail">
 
-			<?php get_footer(); ?>
+					<figure>
+
+						<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
+
+					</figure>
+
+
+
+				</div><!-- three -->
+
+
+				<div class="seven columns omega">
+
+					<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
+
+					<h2>The Evoling Role of Social Media</h2>
+
+					<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
+
+					<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
+
+				</div><!-- /.seven -->
+
+				<hr />
+
+			</article><!-- blog post -->
+
+			<article>
+				<div class="three columns alpha thumbnail">
+
+					<figure>
+
+						<img src="<?php echo get_template_directory_uri(); ?>/images/thumb_iceland.jpg" alt="iceland" />
+
+					</figure>
+
+
+
+				</div><!-- three -->
+
+
+				<div class="seven columns omega">
+
+					<p class="breadcrumbs"><a href="#">Breadecumb</a> &gt; <a href="">trail</a></p>
+
+					<h2>The Evoling Role of Social Media</h2>
+
+					<p class="meta">Posted by <a href="#">Charlie</a>1 hour ago <a href="#">30 comments</a></p>
+
+					<p>A few years ago, news organizations were unsure about social. Journalists were apprehensive to create Twitter accounts and media companies questioned whether a branded Facebook fan page was necessary.</p>
+
+				</div><!-- /.seven -->
+
+				<hr />
+
+			</article><!-- blog post -->
+
+			<nav class="pagination">
+				<ul>
+					<li><a href="#" class="selected">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#">6</a></li>
+				</ul>
+			</nav><!--end pagination-->
+
+		</div><!-- end ten -->
+
+		<?php get_sidebar(); ?>
+
+	</div><!-- end container -->
+</div><!-- end band chief -->
+
+<?php get_footer(); ?>
 

@@ -1,13 +1,14 @@
 // Hook up the flexslider
- $(document).ready(function() {
+jQuery(document).ready(function($) {
 	$('.flexslider').flexslider({
 		animation: 'slide',
 		controlsContainer: '.flex-container'
 	});
 });
 
+
 // Hook up flickr feed
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 	$('div.flickr').flickrush ({
 		limit:6,
 		id:'44499772@N06',
@@ -16,7 +17,7 @@ $(document).ready(function() {
 });
 
 // chris coyier's little dropdown select
-$(document).ready(function(){
+jQuery(document).ready(function($){
 
 	//build dropdown
 	$("<select />").appendTo(".navigation nav div")
@@ -28,18 +29,18 @@ $(document).ready(function(){
 		"text" : "Go to..."
 	}).appendTo("nav select");
 
-// Popular dropdowns with the first menu items
-$(".navigation nav li a").each(function() {
-	var el = $(this);
-	$("<option />", {
-		"value" : el.attr("href"),
-		"text"  : el.text()
-	}).appendTo("nav select");
-});
+	// Popular dropdowns with the first menu items
+	$(".navigation nav li a").each(function() {
+		var el = $(this);
+		$("<option />", {
+			"value" : el.attr("href"),
+			"text"  : el.text()
+		}).appendTo("nav select");
+	});
 
-//make responsive dropdown menu actually work
-$("nav select").change(function(){
-	window.location = $(this).find("option:selected").val();
-});
+	//make responsive dropdown menu actually work
+	$("nav select").change(function(){
+		window.location = $(this).find("option:selected").val();
+	});
 
 });
